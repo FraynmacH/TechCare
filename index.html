@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechCare - Профессиональный ремонт техники</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Header & Navigation -->
+    <header>
+      <div class="container">
+        <nav class="navbar">
+          <a href="#" class="logo">
+            <i class="fas fa-microchip"></i>
+            TechCare
+          </a>
+          <button class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+          </button>
+          <ul class="nav-links" id="nav-links">
+            <li><a href="#home" class="active">Главная</a></li>
+            <li><a href="#about">О нас</a></li>
+            <li><a href="#services">Услуги</a></li>
+            <li><a href="#gallery">Галерея</a></li>
+            <li><a href="#contact">Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <h1>Профессиональный ремонт техники в темное время суток</h1>
+        <p>
+          Мы специализируемся на быстром и качественном ремонте смартфонов,
+          ноутбуков и другой электроники. Работаем даже тогда, когда другие уже
+          закрылись.
+        </p>
+        <div class="hero-btns">
+          <a href="#contact" class="btn">Заказать ремонт</a>
+          <a href="#services" class="btn btn-outline">Услуги по ремонту</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about-content">
+          <div class="about-img">
+            <!-- Фото создателя будет здесь -->
+          </div>
+          <div class="about-text">
+            <h2>О нашей команде</h2>
+            <p>
+              TechCare — это команда опытных инженеров и техников с более чем
+              10-летним опытом работы в сфере ремонта и обслуживания
+              электроники. Мы начали как небольшая мастерская в гараже, а
+              сегодня являемся одним из ведущих сервисных центров в
+              Санкт-Петербурге.
+            </p>
+            <p>
+              Наша специализация — это не только ремонт поврежденных устройств,
+              но и сборка индивидуальных решений под ваши задачи. Мы верим, что
+              каждый клиент заслуживает персонализированного подхода и
+              прозрачного ценообразования.
+            </p>
+            <p>
+              Все наши работы выполняются с использованием оригинальных
+              комплектующих и профессионального оборудования, что позволяет
+              гарантировать качество и долговечность ремонта.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-title">
+          <h2>Услуги по ремонту</h2>
+          <p>
+            Предлагаем комплексные решения для ремонта различной техники с
+            гарантией до 12 месяцев
+          </p>
+        </div>
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-mobile-alt"></i>
+            </div>
+            <h3>Ремонт смартфонов</h3>
+            <p>
+              Замена экранов, батарей, ремонт портов и разъемов, восстановление
+              после попадания жидкости. Работаем с iPhone, Samsung, Xiaomi и
+              другими брендами.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-laptop"></i>
+            </div>
+            <h3>Ремонт ноутбуков</h3>
+            <p>
+              Диагностика и ремонт материнских плат, замена термопасты, ремонт
+              клавиатур и тачпадов, замена дисплеев, восстановление после
+              механических повреждений.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-gamepad"></i>
+            </div>
+            <h3>Ремонт гаджетов</h3>
+            <p>
+              Восстановление планшетов, игровых приставок, наушников и другой
+              портативной электроники. Специализируемся на сложных случаях,
+              которые отказываются делать другие.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-desktop"></i>
+            </div>
+            <h3>Сборка ПК</h3>
+            <p>
+              Профессиональная сборка компьютеров под любые задачи: от офисных
+              ПК до мощных игровых и рабочих станций для дизайна и видеомонтажа.
+              Индивидуальный подбор комплектующих и оптимизация бюджета.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PC Building Section -->
+    <section class="pc-building" id="pc-building">
+      <div class="container">
+        <h2>Сборка игровых и рабочих ПК</h2>
+        <p>
+          Наша команда специализируется не только на ремонте техники, но и на
+          профессиональной сборке компьютеров под ваши конкретные задачи. Мы
+          подберем оптимальные комплектующие, соберем систему и настроим
+          программное обеспечение.
+        </p>
+        <a href="#contact" class="btn">Заказать сборку</a>
+
+        <div class="pc-features">
+          <div class="pc-feature">
+            <i class="fas fa-gamepad"></i>
+            <h3>Игровые ПК</h3>
+            <p>
+              Создаем мощные игровые системы с последними поколениями видеокарт
+              и процессоров для максимальной производительности в современных
+              играх.
+            </p>
+          </div>
+          <div class="pc-feature">
+            <i class="fas fa-chart-line"></i>
+            <h3>Рабочие станции</h3>
+            <p>
+              Собираем надежные рабочие станции для дизайнеров, программистов,
+              видеомонтажеров с оптимальными конфигурациями под профессиональные
+              задачи.
+            </p>
+          </div>
+          <div class="pc-feature">
+            <i class="fas fa-cogs"></i>
+            <h3>Апгрейд ПК</h3>
+            <p>
+              Модернизируем существующие компьютеры: добавляем оперативную
+              память, устанавливаем SSD, обновляем видеокарты и процессоры для
+              увеличения производительности.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="section gallery" id="gallery">
+      <div class="container">
+        <div class="section-title">
+          <h2>Наши работы</h2>
+          <p>Примеры выполненных ремонтов и собранных компьютеров</p>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img
+              src="images/repair-iphone.jpg"
+              alt="Ремонт iPhone"
+              class="gallery-img"
+            />
+            <div class="gallery-overlay">
+              <h3>Ремонт iPhone 13</h3>
+              <p>Замена экрана и аккумулятора</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="images/repair-laptop.jpg"
+              alt="Ремонт ноутбука ASUS"
+              class="gallery-img"
+            />
+            <div class="gallery-overlay">
+              <h3>Ремонт ноутбука ASUS</h3>
+              <p>Замена материнской платы</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="images/repair-pc.jpg"
+              alt="Сборка игрового ПК"
+              class="gallery-img"
+            />
+            <div class="gallery-overlay">
+              <h3>Сборка игрового ПК</h3>
+              <p>Полная сборка с нуля</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="images/repair-tablet.jpg"
+              alt="Ремонт планшета Samsung"
+              class="gallery-img"
+            />
+            <div class="gallery-overlay">
+              <h3>Ремонт планшета Samsung</h3>
+              <p>Замена сенсорного экрана</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-title">
+          <h2>Свяжитесь с нами</h2>
+          <p>Оставьте заявку и мы перезвоним вам в течение 15 минут</p>
+        </div>
+        <div class="contact">
+          <div class="contact-info">
+            <h3>Информация</h3>
+            <div class="contact-details">
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="contact-text">
+                  <h4>Адрес</h4>
+                  <p>
+                    <a href="https://yandex.ru/maps/-/CLs2y6Kd" target="_blank"
+                      >г. Санкт-Петербург, Средний проспект Васильевского
+                      острова, 28/29</a
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-phone"></i>
+                </div>
+                <div class="contact-text">
+                  <h4>Телефон</h4>
+                  <p><a href="tel:+79313787368">+7 (931) 378-73-68</a></p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contact-text">
+                  <h4>Email</h4>
+                  <p>
+                    <a href="mailto:fraynmach@yandex.ru">fraynmach@yandex.ru</a>
+                  </p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-clock"></i>
+                </div>
+                <div class="contact-text">
+                  <h4>Режим работы</h4>
+                  <p>Пн-Сб: 10:00 - 22:00, Вс: 12:00 - 20:00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="contact-form-container">
+            <h3>Отправить сообщение</h3>
+            <form class="contact-form" id="contact-form">
+              <div class="form-group">
+                <input type="text" placeholder="Ваше имя *" required />
+              </div>
+              <div class="form-group">
+                <input type="email" placeholder="Ваш email *" required />
+                <div class="error-message" id="email-error">
+                  Пожалуйста, введите корректный email адрес
+                </div>
+              </div>
+              <div class="form-group">
+                <textarea placeholder="Ваше сообщение *" required></textarea>
+              </div>
+              <button type="submit" class="btn">Отправить сообщение</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>TechCare</h3>
+            <p>
+              Профессиональный ремонт электроники и сборка компьютеров в
+              Санкт-Петербурге. Работаем с 2015 года, гарантируем качество и
+              оперативность.
+            </p>
+          </div>
+          <div class="footer-section">
+            <h3>Контакты</h3>
+            <ul class="contact-links">
+              <li>
+                <a href="tel:+79313787368">
+                  <i class="fas fa-phone"></i>
+                  <span>+7 (931) 378-73-68</span>
+                </a>
+              </li>
+              <li>
+                <a href="mailto:fraynmach@yandex.ru">
+                  <i class="fas fa-envelope"></i>
+                  <span>fraynmach@yandex.ru</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://yandex.ru/maps/-/CLs2y6Kd" target="_blank">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <span
+                    >г. Санкт-Петербург, Средний проспект Васильевского острова,
+                    28/29</span
+                  >
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2025 TechCare. Все права защищены.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
