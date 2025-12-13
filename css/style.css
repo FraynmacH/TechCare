@@ -1,8 +1,8 @@
 :root {
   --dark-bg: #121212;
   --card-bg: #1e1e1e;
-  --accent: #3498db; /* Синий цвет */
-  --accent-hover: #2980b9; /* Более темный синий */
+  --accent: #3498db;
+  --accent-hover: #2980b9;
   --text-primary: #f8f9fa;
   --text-secondary: #adb5bd;
   --border-radius: 12px;
@@ -31,7 +31,6 @@ body {
   padding: 0 15px;
 }
 
-/* Header & Navigation */
 header {
   position: fixed;
   top: 0;
@@ -110,7 +109,6 @@ header {
   cursor: pointer;
 }
 
-/* Hero Section */
 .hero {
   height: 100vh;
   display: flex;
@@ -197,7 +195,6 @@ header {
   background: var(--accent);
 }
 
-/* About Section */
 .about {
   background: linear-gradient(135deg, var(--card-bg), #151515);
   padding: 100px 0;
@@ -238,7 +235,6 @@ header {
   color: var(--text-secondary);
 }
 
-/* Services Section */
 .section {
   padding: 100px 0;
 }
@@ -317,7 +313,6 @@ header {
   margin-bottom: 20px;
 }
 
-/* Gallery Section */
 .gallery {
   background: linear-gradient(to bottom, var(--dark-bg), #0f0f1b);
 }
@@ -368,7 +363,6 @@ header {
   color: var(--accent);
 }
 
-/* PC Building Section */
 .pc-building {
   background: linear-gradient(135deg, #0f0f1b, #151525);
   padding: 100px 0;
@@ -425,7 +419,6 @@ header {
   color: var(--text-secondary);
 }
 
-/* Contact Section */
 .contact {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -506,7 +499,6 @@ header {
   display: none;
 }
 
-/* Footer */
 footer {
   background: #0a0a0a;
   padding: 40px 0 20px;
@@ -570,7 +562,6 @@ footer {
   font-size: 0.9rem;
 }
 
-/* Responsive Design */
 @media (max-width: 992px) {
   .hero h1 {
     font-size: 3rem;
@@ -644,8 +635,6 @@ footer {
   }
 }
 
-/* Добавленные стили в styles.css */
-/* Стили для соцсетей в футере */
 .social-links {
   list-style: none;
   margin-top: 15px;
@@ -676,7 +665,6 @@ footer {
   transform: translateX(5px);
 }
 
-/* Адаптивность для футера */
 @media (max-width: 768px) {
   .footer-content {
     flex-direction: column;
